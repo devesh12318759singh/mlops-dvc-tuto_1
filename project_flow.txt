@@ -11,3 +11,4 @@ Next "dvc add data/"
             bacause initially we were tracking data/ folder from git so now 
             we remove it for dvc to handle.
 Again we do "dvc add data/" (creates data.dvc) then (git add data.dvc .gitignore)
+Now "dvc commit " and then "dvc push"
